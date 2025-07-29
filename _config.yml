@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Software Development
+title: Software Development - Fall 2025
 author: Phil Peterson
 email: phpeterson@usfca.edu
 baseurl: ""  # the subpath of your site, e.g. /blog
