@@ -1,8 +1,8 @@
 ---
 layout: assignment
-due: 
-github_url: 
-published: false
+due: 2025-08-22 23:59:59
+github_url: https://classroom.github.com/a/Z36WWJRL
+published: true
 ---
 
 ## Step 1: Set up your terminal environment

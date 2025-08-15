@@ -47,7 +47,7 @@ ordered-categories:
   - "Fourth Thing"
   - "Third Thing"
   - "Second Thing"
-  - "Course Intro"
+  - "Intro to Go"
 
 reveal:
   transition: slide
