@@ -27,7 +27,7 @@ published: true
 ## Step 2: Use github on USF's network
 
 1. In order to use `github.com` you'll want to somehow store credentials on your laptop. Traditionally, we used [`ssh`](https://cs221-03-f23.github.io/docs/ssh-local-setup.html) to authenticate to github, where credentials are stored using `ssh-agent`. 
-1. However, USF has made it difficult to use `ssh` on the USF Connect Wi-Fi network. Therefore, I recommend switching to using `http` and [Git Credential Manager](https://github.com/git-ecosystem/git-credential-manager/blob/release/docs/install.md)
+1. However, USF has made it difficult to use `ssh` on the USF Connect Wi-Fi network. Therefore, I recommend switching to using `https` and [Git Credential Manager](https://github.com/git-ecosystem/git-credential-manager/blob/release/docs/install.md)
 1. I recommend that you clone repos using the http URL. Git will use the credential manager, and communicate over `https`, which is permitted on USF Connect.
 
 ## Step 3: Set up your Go toolchain
@@ -91,8 +91,8 @@ published: true
     ```
 
 1. If you want to use an Integrated Development Environment (IDE), I recommend [VS Code](https://code.visualstudio.com/). VS Code will offer to install extensions for `go` and `gopls`. You should accept both. 
+1. TO use VS Code on Windows, you should run Windows Subsystem for Linux (WSL) and follow [these instructions](https://learn.microsoft.com/en-us/windows/wsl/tutorials/wsl-vscode) for the Remote Development Extension Pack.
 
-1. Unsupported: There is a Go-specific IDE called [GoLand](https://www.jetbrains.com/go/) that you're welcome to try. I won't be supporting it.
 
 ## Given
 
