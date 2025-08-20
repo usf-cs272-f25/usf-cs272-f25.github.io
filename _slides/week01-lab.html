@@ -19,7 +19,7 @@ layout: raw
 ---
 # Debugging
 
-1. Sometimes, you'll be able to debug using `fmt.print()` (like C `printf()`)
+1. Sometimes, you'll be able to debug using `fmt.Print()` (like C `printf()`)
 1. Sometimes, you'll need a real debugger
 1. In `go` the debugger is called `dlv` ("delve") and it works mostly like `gdb`
 1. Whether you debug from the command line or from VS Code, you're using the same `dlv`
@@ -36,7 +36,7 @@ layout: raw
 1. When searching for information about programming Go, you'll find references to environment variables `GOPATH` and `GOBIN`
 1. We aren't going to use them, but the context is good to know
 1. When you use `go install` to install `dlv` or VS Code extensions, they are installed into `GOPATH`
-1. If you don't specify a `GOPATH` the default path is `~/go/`. I recommend you leave that alone.
+1. If you don't specify a `GOPATH` the default path is `~/go/`. I recommend you don't set environment variables.
 
 ---
 # Go Modules
