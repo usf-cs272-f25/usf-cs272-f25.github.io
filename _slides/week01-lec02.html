@@ -145,3 +145,27 @@ func add2(a, b int) int {
 1. Multiple params of same type
 1. Return type follows params
 1. Exported names are capitalized, e.g. `Add2()`
+
+---
+
+# Strings
+
+1. `string` is an intrinsic data type, meaning a sequence of UTF-8-encoded runes (not bytes)
+
+```go
+s := "hi there 👋🏻 你好呀"
+```
+
+1. The `unicode` package helps you interpret runes
+
+---
+# Errors
+
+1. Errors are handled explicitly using the `error` data type. Go does not provide exceptions
+
+```go
+f, err := os.Open("foo.txt")
+if err != nil {
+    fmt.Println(err)
+}
+```
