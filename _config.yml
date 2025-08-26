@@ -46,7 +46,7 @@ collections:
 ordered-categories:
   - "Fourth Thing"
   - "Third Thing"
-  - "Second Thing"
+  - "Web Crawler"
   - "Intro to Go"
 
 reveal:

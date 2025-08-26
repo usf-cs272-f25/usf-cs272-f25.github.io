@@ -1,15 +1,14 @@
 ---
 layout: assignment
-due: 
-github_url: 
-published: false
+due: 2025-09-02 23:59:59
+github_url: https://classroom.github.com/a/aUf1VyhU
+published: true
 ---
 
 ## Requirements
 
 1. You will develop and test an HTML cleaner in Go.
 1. Your implementation must compile and pass *your* tests `TestExtract` and `TestCleanHref`
-1. Before you add files to your repo, do a `$ go clean` so you don't add/commit build products like executables
 1. Your test will run automatically in your repo as a GitHub action.
 
 You will be given mocked HTML data and you should **extract** all the words and urls from the HTML and **clean** 
@@ -23,7 +22,7 @@ the urls. Input would look something like this:
     </head>
     <body>
         <p>Hello World!</p>
-        <p>Welcome to <a href="https://cs272-f24.github.io/">CS272</a>!</p>
+        <p>Welcome to <a href="https://usf-cs272-f25.github.io/">CS272</a>!</p>
     </body>
 </html>
 ```
@@ -31,7 +30,7 @@ the urls. Input would look something like this:
 **extract:** You will extract all of the words between html tags and the urls within the href Tag Attributes.
 
 To tackle this problem, you will need to `go get "golang.org/x/net/html"` and use `html.Parser`  to 
-comb through the HTML parse nodes and their content. See the package docs [here](https://pkg.go.dev/golang.org/x/net@v0.12.0/html)
+comb through the HTML parse nodes and their content. See the package docs [here](https://pkg.go.dev/golang.org/x/net/html)
 and see the Parser and its functions [here](https://pkg.go.dev/golang.org/x/net/html#Parse). Your 
 **extract** function should produce output as follows:
 
@@ -53,10 +52,10 @@ words, hrefs := extract(body)
 
 Your extract function will produce urls. Some of which will be relative urls. For example, on our course
 website, the link to our syllabus is `<a href="/syllabus/">Syllabus<a>`. We want to remember that this is off
-of a base url (in this case, our course site: `https://cs272-f24.github.io/`).
+of a base url (in this case, our course site: `https://usf-cs272-f25.github.io/`).
 
 ```go
-host := "https://cs272-f24.github.io/"
+host := "https://usf-cs272-f25.github.io/"
 hrefs := []string{ "/", "/help/", "/syllabus/", "https://gobyexample.com/" }
 
 for _, url := range hrefs {
@@ -65,18 +64,22 @@ for _, url := range hrefs {
 
 /*
   output:
-https://cs272-f24.github.io/
-https://cs272-f24.github.io/help/
-https://cs272-f24.github.io/syllabus/
+https://usf-cs272-f25.github.io/
+https://usf-cs272-f25.github.io/help/
+https://usf-cs272-f25.github.io/syllabus/
 https://gobyexample.com/
 */
 ```
 
 ## Given
 
-Recall the testing example we covered in class [here](https://github.com/cs272-f24/inclass/tree/main/week02).
+1. We will demonstrate Go test cases in lecture [here](https://github.com/cs272-f25/inclass/tree/main/week02).
+1. Given test files: [/test-data/project01/](/test-data/project01/)
 
 ## Rubric
 Your lab will receive the score `go test` using this rubric. Use these names exactly, including case.
-1. 70 points: TestExtract (do you extract the correct words and hrefs).
-1. 30 points: TestCleanHref (do you clean the hrefs accurately)
+1. 25 points: TestExtract (do you extract the correct words and hrefs).
+1. 25 points: TestCleanHref (do you clean the hrefs accurately)
+1. 50 points
+    1. 40 points: Code review of the code you wrote
+    2. 10 points: Code review of the code written by an LLM coding assistant
