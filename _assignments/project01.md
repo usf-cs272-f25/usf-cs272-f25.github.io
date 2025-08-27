@@ -78,8 +78,10 @@ https://gobyexample.com/
 
 ## Rubric
 Your lab will receive the score `go test` using this rubric. Use these names exactly, including case.
-1. 25 points: TestExtract (do you extract the correct words and hrefs).
-1. 25 points: TestCleanHref (do you clean the hrefs accurately)
+1. 15 points: TestExtract (do you extract the correct words and hrefs).
+1. 10 points: TestCleanHref (do you clean the hrefs accurately)
+1. 10 points: TestDownload (do you download the markup correctly)
+1. 15 points: TestCrawl (keep a slice of URLs crawled and check it)
 1. 50 points
     1. 40 points: Code review of the code you wrote
     2. 10 points: Code review of the code written by an LLM coding assistant
