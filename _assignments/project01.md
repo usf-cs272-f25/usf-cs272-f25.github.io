@@ -73,7 +73,7 @@ https://gobyexample.com/
 
 ## Given
 
-1. We will demonstrate Go test cases in lecture [here](https://github.com/cs272-f25/inclass/tree/main/week02).
+1. We will demonstrate Go test cases in lecture [here](https://github.com/usf-cs272-f25/inclass/tree/main/week02).
 1. Given test files: [/test-data/project01/](/test-data/project01/)
 
 ## Rubric
