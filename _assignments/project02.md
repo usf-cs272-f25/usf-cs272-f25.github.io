@@ -53,5 +53,3 @@ published: false
         return urlOfJ > urlOfI
     }
     ```
-1. Remember to push your code to the `dev` branch for grading
-1. Remember to push your corpus so the autograder can test against the chapter files 

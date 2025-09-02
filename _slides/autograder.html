@@ -12,7 +12,7 @@ layout: raw
 ```sh
 cd ~
 git clone https://github.com/phpeterson-usf/autograder
-git clone https://github.com/usf-cs272-s25/tests/
+git clone https://github.com/usf-cs272-f25/tests/
 ```
 
 ---
@@ -27,7 +27,7 @@ nano .zshrc
 Add this line
 
 ```sh
-export PATH=~/autograder:$PATH
+export PATH=~/Desktop/CS272/autograder:$PATH
 ```
 
 Save and quit
@@ -48,7 +48,7 @@ nano .bashrc
 Add this line (no spaces aroung the '=')
 
 ```sh
-export PATH=~/autograder:$PATH
+export PATH=~/Desktop/CS272/autograder:$PATH
 ```
 
 Save and quit your editor
@@ -62,11 +62,19 @@ source .bashrc
 ## Testing
 
 ```sh
-cd lab01-phpeterson-usf
+cd project01-phpeterson-usf
 grade test
 
 ---
+## Optional - python virtual environment
 
+1. Windows and Linux users can probably install python packages using 
+    ```
+    cd autograder 
+    pip3 install -r requirements.txt --user
+    ```
+2. If you get permission errors, (common on MacOS) you should use a python virtual environment as shown in the autograder README
+---
 ## Optional - test cases somewhere besides ~
 
 ```sh
@@ -79,7 +87,7 @@ nano config.toml
 3. Change the `tests_path` to where you cloned tests, e.g. 
 
     ```sh
-    tests_path = "~/cs272/tests"
+    tests_path = "~/Desktop/CS272/tests"
     ```
 
 4. The Unix shell is case sensitive
