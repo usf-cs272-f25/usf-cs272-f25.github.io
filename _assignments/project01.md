@@ -9,7 +9,6 @@ published: true
 
 1. You will develop and test an HTML cleaner in Go.
 1. Your implementation must compile and pass *your* tests `TestExtract` and `TestCleanHref`
-1. Your test will run automatically in your repo as a GitHub action.
 
 You will be given mocked HTML data and you should **extract** all the words and urls from the HTML and **clean** 
 the urls. Input would look something like this:
