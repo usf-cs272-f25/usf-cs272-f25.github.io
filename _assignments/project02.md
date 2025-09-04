@@ -1,8 +1,8 @@
 ---
 layout: assignment
-due: 
-github_url: 
-published: false
+due: 2025-09-16 23:59:59
+github_url: https://classroom.github.com/a/GCQsRCxE
+published: true
 ---
 
 ## Requirements
@@ -20,9 +20,8 @@ published: false
     1. Use Go methods with receivers to express your code in an object-oriented way.
 
 ## Given
-1. From previous assignments:
-    1. [Snowball stemmer](https://github.com/kljensen/snowball)
-    1. Corpus of [10 books from Project Gutenberg](/top10/)
+1. From previous assignment: [Snowball stemmer](https://github.com/kljensen/snowball)
+1. Corpus of [10 books from Project Gutenberg](/test-data/top10/)
 1. Lecture material on scoring and ranking search results
 1. You can use the Go [`sort.Interface`](https://pkg.go.dev/sort) interface to do the sorting
 1. You can use the [stopwords-iso](https://github.com/stopwords-iso/stopwords-en) collection of English stopwords. The `json` list is formatted similarly to Go.
@@ -33,14 +32,15 @@ published: false
 1. 5 pts: `TestDownload()`
 1. 5 pts: `TestCrawl()`
 1. 5 pts: `TestSearch()`
-1. 15 pts: `TestStop()`
-1. 40 pts: `TestTfIdf()`
-1. 20 pts: Code review. Mandatory, as usual. Please sign up for a different grader than you met for project01.
+1. 10 pts: `TestStop()`
+1. 10 pts: `TestTfIdf()`
+1. 15 pts: LLM implementation in a [new repo](https://classroom.github.com/a/zMZNqpQs)
+1. 40 pts: Code review. Please sign up for a different grader than you met for project01.
 
 ## Required Test Cases
 1. You will develop a handful of good test cases for stop words and TF-IDF rankings. 
 1. Your test cases will use the "slice of structs" approach demonstrated in lecture to express the expected output
-1. You'll see that I called the test corpus "top10". You can rename that if you like
+1. You'll see that I called the test corpus "top10"
 
 ## Implementation Tips
 1. You'll want to use the Go `float64` type to calculate the TF-IDF score. For example, you might calculate  

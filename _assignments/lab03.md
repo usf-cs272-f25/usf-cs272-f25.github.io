@@ -12,7 +12,6 @@ published: true
     1. Extract `href` attributes from `<a>` tags
 1. Lab03 adds the following new features, which must include new test cases
     1. An in-memory inverted index based on Go's `map`
-    1. An HTTP server which can search an index
     1. [Snowball stemmer](https://github.com/kljensen/snowball)
 1. Your solution will crawl the text of [Romeo and Juliet](/test-data/rnj/), which I got from [Project Gutenberg](https://www.gutenberg.org/) and divided
 into an HTML document per scene.
