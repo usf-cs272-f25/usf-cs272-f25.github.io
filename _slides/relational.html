@@ -14,9 +14,9 @@ layout: raw
 ## Problem statement
 
 1. Since the index for a useful search engine is too large to fit in RAM
-we have to write it onto a disk (or a lot of disks)
-1. We need a way to query the database and get results back
-1. Use a database!
+we have to write it onto a disk (or a lot of disks) <!-- .element: class="fragment" -->
+1. We need a way to query the index and get results <!-- .element: class="fragment" -->
+1. Use a database! <!-- .element: class="fragment" -->
 
 ---
 
@@ -25,19 +25,19 @@ we have to write it onto a disk (or a lot of disks)
 The universe of databases is divided into approaches:
 
 1. Relational Databases use _Tables_ where each row is an entry 
-and each column is an attribute of that entry.
-1. Non-Relational databases, where _Documents_ contain Attributes
+and each column is an attribute of that entry. <!-- .element: class="fragment" -->
+1. Non-Relational databases, where _Documents_ contain Attributes <!-- .element: class="fragment" -->
 
 ---
 
 ## Relational DBs
 
-1. Rely on a _Schema_ which contains rules about which tables can contain which attributes
+1. Rely on a _Schema_ which contains rules about which tables can contain which attributes <!-- .element: class="fragment" -->
 1. <a href=https://en.wikipedia.org/wiki/Referential_integrity target="_blank">Referential Integrity</a> enforces 
-the relationships defined in the schema
+the relationships defined in the schema <!-- .element: class="fragment" -->
 1. We can create, update (modify) and delete elements of a table, as long as 
-the changes obey the rules specified in the schema
-1. Can you imagine some pros or cons?
+the changes obey the rules specified in the schema <!-- .element: class="fragment" -->
+1. Can you imagine some pros or cons? <!-- .element: class="fragment" -->
 
 ---
 
@@ -53,36 +53,36 @@ the changes obey the rules specified in the schema
 ## Scalability
 
 1. If you're building a search engine for a company, **vertical scalability** 
-(bigger disk, faster computer) might be enough
+(bigger disk, faster computer) might be enough <!-- .element: class="fragment" -->
 1. If you're building a global-scale search engine, **horizontal scalability**
-(more computers, more disks) will be required
+(more computers, more disks) will be required <!-- .element: class="fragment" -->
 
 ---
 
 ## ACID Transactions 
 
-1. Atomicity - if a transaction starts, it finishes
-1. Consistency - all computers contain the same data
-1. Isolation - concurrent and sequential results match
-1. Durability - transaction results are permanent
+1. Atomicity - if a transaction starts, it finishes <!-- .element: class="fragment" -->
+1. Consistency - all computers contain the same data <!-- .element: class="fragment" -->
+1. Isolation - concurrent and sequential results match <!-- .element: class="fragment" -->
+1. Durability - transaction results are permanent <!-- .element: class="fragment" -->
 
-Proposed by [Jim Gray](https://en.wikipedia.org/wiki/Jim_Gray_(computer_scientist))
+Proposed by <!-- .element: class="fragment" --> [Jim Gray](https://en.wikipedia.org/wiki/Jim_Gray_(computer_scientist)) <!-- .element: class="fragment" -->
 
 ---
 
 ## Pro Tip
 
-1. Yes, relational DBs can be a drag, but
-1. The stronger your ACID requirements are, the more you need a relational DB
-1. Choose the right tool for the job
+1. Yes, relational DBs can be a drag, but <!-- .element: class="fragment" -->
+1. The stronger your ACID requirements are, the more you need a relational DB <!-- .element: class="fragment" -->
+1. Choose the right tool for the job <!-- .element: class="fragment" -->
 
 ---
 
 ## CS 272
 
 1. We will use a relational DB for this course, even though a search 
-engine is not a classically relational problem
-1. Hopefully the exposure will be valuable 
+engine is not a classically relational problem <!-- .element: class="fragment" -->
+1. Hopefully the exposure will be valuable <!-- .element: class="fragment" -->
 
 ---
 <br>
@@ -161,29 +161,29 @@ What problem do these solve?
 
 ## Entity Relationships 
 
-1. ER diagrams help define a schema
-1. Always start a project with an ER diagram
-1. How might our search engine use ER diagram?
+1. ER diagrams help define a schema <!-- .element: class="fragment" -->
+1. Always start a project with an ER diagram <!-- .element: class="fragment" -->
+1. How might our search engine use ER diagram?<!-- .element: class="fragment" --> 
 
-<a href=https://en.wikipedia.org/wiki/Entity%E2%80%93relationship_model target="_blank">Proposed</a> by 
-Peter Chen
+<a href=https://en.wikipedia.org/wiki/Entity%E2%80%93relationship_model target="_blank">Proposed by Peter Chen</a>  <!-- .element: class="fragment" -->
 
 ---
 
 ## Cardinality
 
-1. Refers to the number of relationships between one entity and another
-1. Drawn using [crow's foot notation](https://en.wikipedia.org/wiki/Entity%E2%80%93relationship_model#Crow's_foot_notation)
-1. How might our search engine use cardinality?
+1. Refers to the number of relationships between one entity and another <!-- .element: class="fragment" -->
+1. Drawn using<!-- .element: class="fragment" -->  [crow's foot notation](https://en.wikipedia.org/wiki/Entity%E2%80%93relationship_model#Crow's_foot_notation)<!-- .element: class="fragment" --> 
+1. How might our search engine use cardinality? <!-- .element: class="fragment" -->
 
 ---
 
 ## Principles
 
-1. Unroll data structures into one table per struct type
-1. Every row has a _Primary Key_ which is unique in that table
-1. _Normalize_ data by eliminating redundancy (see [BCNF](https://en.wikipedia.org/wiki/Boyce%E2%80%93Codd_normal_form))
-1. _Foreign Keys_ "point back" to a related table by ID
+1. Unroll data structures into one table per struct type <!-- .element: class="fragment" -->
+1. Every row has a<!-- .element: class="fragment" -->  _Primary Key_<!-- .element: class="fragment" -->  which is unique in that table <!-- .element: class="fragment" -->
+1. _Normalize_<!-- .element: class="fragment" -->  data by eliminating redundancy (see [BCNF](https://en.wikipedia.org/wiki/Boyce%E2%80%93Codd_normal_form)<!-- .element: class="fragment" -->) 
+1. _Foreign Keys_ <!-- .element: class="fragment" --> "point back" to a related table by ID <!-- .element: class="fragment" -->
+
 
 ---
 
@@ -196,9 +196,9 @@ Peter Chen
 ---
 
 ## About SQL
-1. SQL is a programming language to describe tables, attributes, and constraints
-1. Many databases support SQL (Oracle, MySQL, SQLServer, PostgreSQL, SQLite, ...)
-1. The syntax is arcane but SQL is everywhere in commercial SW dev
+1. SQL is a programming language to describe tables, attributes, and constraints <!-- .element: class="fragment" -->
+1. Many databases support SQL (Oracle, MySQL, SQLServer, PostgreSQL, SQLite, ...) <!-- .element: class="fragment" -->
+1. The syntax is arcane but SQL is everywhere in commercial SW dev <!-- .element: class="fragment" -->
 
 ---
 

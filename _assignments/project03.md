@@ -1,7 +1,7 @@
 ---
 layout: assignment
-due: 
-github_url: 
+due: 2025-09-30 23:59:59
+github_url: https://classroom.github.com/a/mylJ92sN
 published: false
 ---
 
@@ -32,9 +32,12 @@ published: false
 1. 5 pts: `TestDownload()`
 1. 5 pts: `TestCrawl()`
 1. 5 pts: `TestSearch()`
-1. 15 pts: `TestStop()`
-1. 40 pts: `TestTfIdf()`
-1. 20 pts: Mandatory code review. You will demonstrate completion of the requirements during your code review (no new test cases).
+1. 10 pts: `TestStop()`
+1. 10 pts: `TestTfIdf()`
+1. 15 pts: LLM implementation in a [new repo](https://classroom.github.com/a/4NEOJcMA)
+1. 40 pts: Code review. 
+    1. Please sign up for a different grader than you met for project02. 
+    1. You will demonstrate the required interfaces and implementation, but no new test cases are required.
 
 ## Implementation tips
 1. You'll need SQL `pragma foreign_keys = on;` for each database connection.
