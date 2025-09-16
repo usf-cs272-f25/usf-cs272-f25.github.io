@@ -32,4 +32,4 @@ published: true
 
 ## Rubric
 
-1. 100 pts for credible effort
+1. 100 pts for credible effort. No autograder for this assignment.
