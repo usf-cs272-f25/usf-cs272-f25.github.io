@@ -34,7 +34,8 @@ published: false
 1. 5 pts: `TestSearch()`
 1. 10 pts: `TestStop()`
 1. 10 pts: `TestTfIdf()`
-1. 15 pts: LLM implementation in a [new repo](https://classroom.github.com/a/4NEOJcMA)
+1. 15 pts: LLM implementation in a [new repo](https://classroom.github.com/a/4NEOJcMA). 
+    1. Include a file containing the ("few-shot") prompts you made to improve LLM output
 1. 40 pts: Code review. 
     1. Please sign up for a different grader than you met for project02. 
     1. You will demonstrate the required interfaces and implementation, but no new test cases are required.
