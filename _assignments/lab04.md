@@ -25,10 +25,10 @@ published: true
 1. Sketch an ER diagram on paper using your entities and cardinality
 1. Create tables using the `sqlite3` command-line interpreter and output the results using
     ```text
-    sqlite> .output lab03.sql
+    sqlite> .output lab04.sql
     sqlite> .dump
     ```
-1. Please submit a photo of your sketch and lab03.sql to your assignment repo
+1. Please submit a photo of your sketch and lab04.sql to your assignment repo
 
 ## Rubric
 
