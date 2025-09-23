@@ -53,7 +53,7 @@ import _ "modernc.org/sqlite"
 ```go
 import "datbase/sql"
 
-db, err := sql.Open("sqlite", "example.db")
+db, err := sql.Open("sqlite3", "example.db")
 if err != nil 
     // error handling
 defer db.Close()

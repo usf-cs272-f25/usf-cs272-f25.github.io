@@ -1,8 +1,8 @@
 ---
 layout: assignment
 due: 2025-09-30 23:59:59
-github_url: https://classroom.github.com/a/mylJ92sN
-published: false
+github_url: https://classroom.github.com/a/L84LZ8Bl
+published: true
 ---
 
 ## Requirements
@@ -19,6 +19,7 @@ published: false
         ```sh
         $ go run . -index=sqlite
         ```
+1. Use a `.gitignore` file to avoid committing the SQLite DB
 
 
 ## Given
@@ -39,6 +40,8 @@ published: false
 1. 40 pts: Code review. 
     1. Please sign up for a different grader than you met for project02. 
     1. You will demonstrate the required interfaces and implementation, but no new test cases are required.
+    1. Make sure to include your fixes for issues filed in project02. 
+    1. Make sure your code is simplified, with conventional test cases and no copied/pasted code.
 
 ## Implementation tips
 1. You'll need SQL `pragma foreign_keys = on;` for each database connection.
