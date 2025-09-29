@@ -42,6 +42,7 @@ published: true
     1. You will demonstrate the required interfaces and implementation, but no new test cases are required.
     1. Make sure to include your fixes for issues filed in project02. 
     1. Make sure your code is simplified, with conventional test cases and no copied/pasted code.
+    1. Plan to demonstrate your running solution in the code review meeting.
 
 ## Implementation tips
 1. You'll need SQL `pragma foreign_keys = on;` for each database connection.

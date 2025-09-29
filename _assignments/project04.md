@@ -26,4 +26,7 @@ published: false
 ## Rubric
 
 1. 50 pts. TestTfIdf
-1. 50 pts. Code review for concurrency and clickable search results
+1. 50 pts. Code review 
+    1. Explain your design and implementation for concurrency
+    1. Plan to demonstrate your solution including clickable search results
+

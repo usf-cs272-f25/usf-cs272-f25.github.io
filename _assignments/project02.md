@@ -35,7 +35,9 @@ published: true
 1. 10 pts: `TestStop()`
 1. 10 pts: `TestTfIdf()`
 1. 15 pts: LLM implementation in a [new repo](https://classroom.github.com/a/zMZNqpQs)
-1. 40 pts: Code review. Please sign up for a different grader than you met for project01.
+1. 40 pts: Code review. 
+    1. Please sign up for a different grader than you met for project01.
+    1. Plan to demonstrate your running solution in the code review meeting.
 
 ## Required Test Cases
 1. You will develop a handful of good test cases for stop words and TF-IDF rankings. 
