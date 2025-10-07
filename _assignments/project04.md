@@ -27,7 +27,7 @@ published: true
 
 1. 40 pts. TestTfIdf with a concurrent test case
 1. 30 pts. [LLM implementation](https://classroom.github.com/a/5blT18pa) including prompt conversation as we did for project03
-1. 60 pts. Code review 
+1. Code review (30 pts)
     1. Explain your design and implementation for concurrency (10 pts)
     1. Plan to demonstrate your solution including clickable search results (10 pts)
     1. Please turn in your best work for the code review, including fixes from your previous pull request. We're not going to file issues on messy code this time. (10 pts)
