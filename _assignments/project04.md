@@ -1,8 +1,8 @@
 ---
 layout: assignment
-due: 
-github_url: 
-published: false
+due: 2025-10-21 23:59:59
+github_url: https://classroom.github.com/a/IbcMHpFN
+published: true
 ---
 
 ## Requirements
@@ -23,10 +23,11 @@ published: false
 1. We will discuss potential approaches in lecture
 1. I strongly recommend watching [Rob Pike's talk](https://www.youtube.com/watch?v=f6kdp27TYZs) on Go's concurrency features
 
-## Rubric
+## Rubric (draft)
 
-1. 50 pts. TestTfIdf
-1. 50 pts. Code review 
-    1. Explain your design and implementation for concurrency
-    1. Plan to demonstrate your solution including clickable search results
-
+1. 40 pts. TestTfIdf with a concurrent test case
+1. 30 pts. [LLM implementation](https://classroom.github.com/a/5blT18pa) including prompt conversation as we did for project03
+1. 60 pts. Code review 
+    1. Explain your design and implementation for concurrency (10 pts)
+    1. Plan to demonstrate your solution including clickable search results (10 pts)
+    1. Please turn in your best work for the code review, including fixes from your previous pull request. We're not going to file issues on messy code this time. (10 pts)
