@@ -44,7 +44,7 @@ collections:
     permalink: /:collection/:name
 
 ordered-categories:
-  - "Fourth Thing"
+  - "Large Language Models"
   - "Search Engine"
   - "Web Crawler"
   - "Intro to Go"
