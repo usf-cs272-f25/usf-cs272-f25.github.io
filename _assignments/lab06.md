@@ -9,10 +9,10 @@ published: true
 
 1. For this lab, you will begin building a chatbot which can answer questions 
 about the catalog of courses offered at USF this semester
-1. You will demonstrate using the OpenAI Chat Completion API to answer questions about the 
-course catalog using "context stuffing", as discussed in lecture.
 1. Your program will take an input question as a command line argument
 1. Your program will output the time for the LLM to respond and the text of its answer
+1. You will demonstrate using the [OpenAI Chat Completion API](https://github.com/sashabaranov/go-openai) to answer a question about the 
+course catalog using "context stuffing", as discussed in lecture.
 
 ## Given
 
