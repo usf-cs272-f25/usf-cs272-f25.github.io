@@ -9,6 +9,12 @@ published: true
 
 1. For this lab, you will begin building a chatbot which can answer questions 
 about the catalog of courses offered at USF this semester
+    ```text
+    ./lab06 "Who teaches CS 272?"
+    Time:  20.570595292s
+    Tokens: 182379
+    Philip Peterson (phpeterson@usfca.edu)
+    ```
 1. Your program will take an input question as a command line argument
 1. Your program will output the time for the LLM to respond, the token count, and the text of its answer
 1. You will demonstrate using the [OpenAI Chat Completion API](https://github.com/sashabaranov/go-openai) to answer a question about the 
