@@ -1,8 +1,8 @@
 ---
 layout: assignment
-due: 
-github_url: 
-published: false
+due: 2025-11-04 23:59:59 -0700
+github_url: https://classroom.github.com/a/FV5tLqLA
+published: true
 ---
 
 ## Requirements
@@ -19,7 +19,7 @@ In lecture, we will discuss:
 
 1. How to use Go to read input from the command line
 1. The problems of relying on vector similarity to build prompts
-1. Opportunities to improve the database implementation using metadata
+1. Opportunities to improve the database implementation 
 1. Opportunities to improve the prompts and leverage the capabilities of the LLM
 
 ## Rubric
