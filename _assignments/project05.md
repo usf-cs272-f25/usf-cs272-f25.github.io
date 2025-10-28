@@ -7,11 +7,18 @@ published: true
 
 ## Requirements
 
-For this project you will evolve your vector database solution from lab06 by adding:
+For this project you will evolve your lab06 solution by adding:
 
+1. A vector database for `courses.csv` which allows semantic similarity
 1. A feature to ask questions of an LLM using command-line input
 1. A solution for the "PHILosophy" problem
 1. A prompting strategy which answers questions about courses by department, course name, instructor, times, and location
+
+## Original Code Only
+
+1. In response to feedback about critiquing an LLM-generated solution. We're going to skip 
+that for at least this assignment. Therefore, you must hand in only original code. If you
+turn in LLM-generated code, you will receive a zero.
 
 ## Given
 
