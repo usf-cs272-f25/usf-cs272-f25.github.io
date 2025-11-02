@@ -13,6 +13,7 @@ For this project you will evolve your lab06 solution by adding:
 1. A feature to ask questions of an LLM using command-line input
 1. A solution for the "PHILosophy" problem
 1. A prompting strategy which answers questions about courses by department, course name, instructor, times, and location
+1. Use the `Usage.TotalTokens` field of the LLM response to output the number of tokens used. The exact number will not be graded since it varies with the prompts you design
 
 ## Original Code Only
 
