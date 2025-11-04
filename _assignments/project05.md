@@ -33,7 +33,7 @@ In lecture, we will discuss:
 ## Rubric
 
 1. 50 pts. - correctness including required test cases
-    1. `TestPhil` to prompt the LLM to correctly answer the question, "What courses is Phil Peterson teaching in Fall 2024?"
+    1. `TestPhil` to prompt the LLM to correctly answer the question, "What courses is Phil Peterson teaching this semester?"
     1. `TestPHIL` to prompt the LLM to correctly answer the question, "Which philosophy courses are offered this semester?"
     1. `TestBio` to prompt the LLM to correctly answer the question, "Where does Bioinformatics meet?"
     1. `TestGuitar` to prompt the LLM to correctly answer the question, "Can I learn guitar this semester?"

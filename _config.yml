@@ -44,6 +44,7 @@ collections:
     permalink: /:collection/:name
 
 ordered-categories:
+  - "Agents"
   - "Large Language Models"
   - "Search Engine"
   - "Web Crawler"
