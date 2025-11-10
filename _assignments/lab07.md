@@ -23,8 +23,6 @@ For this lab, you will evolve your project05 solution as follows:
 
 ## Rubric
 
-Same test cases as project05, except the guitar one is optional
-
 1. 100 pts. - correctness including required test cases
     1. `Lab07/TestPhil` to prompt the LLM to correctly answer the question, "What courses is Phil Peterson teaching this semester?"
     1. `Lab07/TestPHIL` to prompt the LLM to correctly answer the question, "Which philosophy courses are offered this semester?"
