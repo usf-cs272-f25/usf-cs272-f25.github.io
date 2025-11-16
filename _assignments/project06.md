@@ -40,8 +40,8 @@ In this project, you will
 
 ## Rubric
 
-1. 50 pts - Passes test cases, including reasonable import time
-1. 50 pts - Code review
+1. 48 pts - Passes test cases, including reasonable import time
+1. 52 pts - Code review
     1. Peer review
     1. Review my code
     1. Competition for least token use
