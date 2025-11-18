@@ -1,31 +1,39 @@
 ---
 layout: assignment
-due: 
-github_url: 
-published: false
+due: 2025-11-25 23:59:59
+github_url: https://classroom.github.com/a/RLEm5U9l
+published: true
 ---
 
 ## Background
 
-1. For this assignment, you will use [Cursor](https://www.cursor.com/) to build a web UI on top of your lab07 solution
-1. Since Cursor uses [Anthropic Claude Sonnet](https://www.anthropic.com/claude/sonnet), you'll need to set up an API key put it in your environment, just like you did for OpenAI. 
-1. You'll need to give them a payment method, but it should cost less than $1 to develop this lab.
-1. Please call your API key `ANTHROPIC_API_KEY` so we can grade everyone's work using the same setup.
+1. We have developed several Tools using the OpenAI tool-calling APIs
+1. In order to be really useful, tools need to be callable from a variety of chat clients,
+rather than trapped in a chat client of our own design
+1. The [Model Context Protocol](https://modelcontextprotocol.io/introduction) (MCP) is designed to bridge this gap
+1. MCP enables public collections of MCP Servers (tools) like [MCP Server Hub](https://mcpserverhub.com/) and others
 
-## Objective
 
-1. You will use aider to add a web server (HTTP `Handle`, `ListenAndServe` etc.) to your project06 solution
-  - Cursor can replace your input loop (`io.Scanner` etc.) if you wish. You don't need to keep both
-  - Cursor can develop a web page which can accept user prompts and chat with the LLM
-  - Cursor can reuse your chat code to call OpenAI to answer the same kinds of questions that your project06 solution answers.
-1. Feel free to use your own creativity to prompt Cursor to make an attractive web app. Some ideas:
-  - Appearance similar to other chat apps
-  - Light/dark mode
-  - Spinner while waiting for OpenAI
-  - Theme in the style of ... 
-1. You should do as little manual coding and fixing as possible. Prompt Cursor to do the work.
+## Requirements
+
+1. You will incorporate your course catalog tool and the second tool you built for project06
+1. You will make those tools available using the MCP Transport of your choice
+1. You will incorporate your tools into [Claude Desktop](https://claude.ai/download) (ChatGPT Desktop does not yet support MCP)
+
+## Given
+
+1. We will discuss MCP in lecture
+1. Several implementations of MCP are available for Go ([metoro-io](https://github.com/metoro-io/mcp-golang/tree/main), [mark3labs](https://github.com/mark3labs/mcp-go), perhaps others)
+1. You may decide how much of the code to write by hand vs. using Cursor or other AI coding assistant
+
 
 ## Rubric
 
-1. 80 pts - Something runs
-1. 20 pts - Attractive and useful
+1. 50 points - Demonstrate your course catalog tool from Claude or ChatGPT desktop apps
+1. 30 points - Demonstrate your second tool from Claude Desktop
+1. 20 points - Partner code review in class
+    1. 5 points - No binaries in the repo
+    1. 5 points - No commented-out (dead) code
+    1. 5 points - Reasonable Separation of Concerns (no long main files/functions)
+    1. 5 points - Use of object-oriented methods and receivers
+    1. 0 points - If you used an AI coding assistant, describe your prompts
