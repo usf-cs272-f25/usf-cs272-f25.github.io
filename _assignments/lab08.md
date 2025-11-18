@@ -18,7 +18,7 @@ rather than trapped in a chat client of our own design
 
 1. You will incorporate your course catalog tool and the second tool you built for project06
 1. You will make those tools available using the MCP Transport of your choice
-1. You will incorporate your tools into [Claude Desktop](https://claude.ai/download) (ChatGPT Desktop does not yet support MCP)
+1. You will incorporate your tools into the desktop versions of ChatGPT or Claude
 
 ## Given
 
