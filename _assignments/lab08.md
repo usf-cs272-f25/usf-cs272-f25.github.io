@@ -16,7 +16,7 @@ rather than trapped in a chat client of our own design
 
 ## Requirements
 
-1. You will incorporate your course catalog tool and the second tool you built for project06
+1. You will incorporate your course catalog tool you built for project06
 1. You will make those tools available using the MCP Transport of your choice
 1. You will incorporate your tools into the desktop versions of ChatGPT or Claude
 
@@ -29,8 +29,7 @@ rather than trapped in a chat client of our own design
 
 ## Rubric
 
-1. 50 points - Demonstrate your course catalog tool from Claude or ChatGPT desktop apps
-1. 30 points - Demonstrate your second tool from Claude Desktop
+1. 80 points - Demonstrate your course catalog tool from Claude or ChatGPT desktop apps
 1. 20 points - Partner code review in class
     1. 5 points - No binaries in the repo
     1. 5 points - No commented-out (dead) code
