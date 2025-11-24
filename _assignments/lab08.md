@@ -16,9 +16,9 @@ rather than trapped in a chat client of our own design
 
 ## Requirements
 
-1. You will incorporate your course catalog tool you built for project06
-1. You will make those tools available using the MCP Transport of your choice
-1. You will incorporate your tools into the desktop versions of ChatGPT or Claude
+1. You will incorporate your course catalog tool(s) you built for project06
+1. You will make your tool(s) available using the MCP Transport of your choice
+1. You will incorporate your tool(s) into the desktop versions of ChatGPT or Claude
 
 ## Given
 
